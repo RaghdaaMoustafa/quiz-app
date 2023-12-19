@@ -22,7 +22,6 @@ body {
   padding: 30px;
   overflow: hidden;
   border-radius: 5px;
-  /* box-shadow: 0 0 10px rgba(88, 40, 118, 0.1); */
 }
 
 .header {
@@ -161,7 +160,6 @@ select {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  /* width: 150px; */
   margin-left: auto;
   margin-right: auto;
   width: 50%

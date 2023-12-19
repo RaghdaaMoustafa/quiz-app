@@ -1,8 +1,6 @@
 let questions = []
-let time = 10
 let result = 0
 let currentQuestion
-let timer
 
 const startButton = document.querySelector('.start')
 const category = document.querySelector('#category')
