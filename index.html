@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="'en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="initial-screen">
+        <h1 class="header">Quiz App</h1>
+        <div class="settings">
+          <label for="category">Category</label>
+          <select name="" id="category">
+            <option value="9">General Knowledge</option>
+            <option value="11">Films</option>
+            <option value="15">Video Games</option>
+            <option value="21">Sports</option>
+            <option value="23">History</option>
+          </select>
+          <label for="num-questions">Number of Questions</label>
+          <select name="" id="num-questions">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+          </select>
+          <label for="difficulty">Difficulty</label>
+          <select name="" id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Moderate</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+        <button class="btn start">Start</button>
+      </div>
+      <div class="quiz hide">
+        <div class="question-container">
+          <div class="number">
+            Question <span class="current">1</span>
+            <span class="total">/10</span>
+          </div>
+          <div class="question">This is a Question</div>
+          <div class="answer-container"></div>
+          <button class="btn submit">Submit</button>
+          <button class="btn next">Next</button>
+        </div>
+      </div>
+      <div class="final-screen hide">
+        <h1 class="header">Quiz App</h1>
+        <div class="result">
+          <span class="result-text">Your Final Score is</span>
+          <div>
+            <span class="final-result">0</span>
+            <span class="total-result">/10</span>
+          </div>
+          <div>
+            <img
+              id="winner"
+              src="https://static.vecteezy.com/system/resources/thumbnails/010/976/287/small_2x/golden-cup-3d-red-ribbon-winner-1st-place-minimal-gold-winners-stars-on-podium-champion-award-ceremony-concept-in-cartoon-style-trophy-render-isolated-on-white-background-game-or-education-free-vector.jpg"
+              alt="winner image"
+            />
+            <img
+              id="loser"
+              src="https://t3.ftcdn.net/jpg/03/12/54/80/360_F_312548010_JsXZ9vxIXTbgZlDr1IwlMTogrN84BN1L.jpg"
+              alt="loser image"
+            />
+          </div>
+        </div>
+        <button class="btn restart">Reattempt</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
